@@ -1,0 +1,30 @@
+.first-header {
+    text-align: center;
+}
+
+.paragraph1 {}
+
+.paragraph2 {}
+
+.paragraph3 {}
+
+.opener {
+    text-align: center;
+    font-weight: bold;
+    color: silver;
+}
+
+.p {
+    text-align: justify;
+}
+
+.h {
+    text-align: center;
+}
+
+.a {
+    float: right;
+}
+body{
+  background-color: grey;
+}
