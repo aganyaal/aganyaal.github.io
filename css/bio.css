@@ -13,10 +13,12 @@
   text-align: center;
 
 }
-.parallaax {
-    background-image: url("../images/me.jpg");
-    min-height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+.we{
+  color: black;
+}
+.satic{
+
+  background-image: url("../images/image1.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
