@@ -17,8 +17,10 @@
   color: black;
 }
 .satic{
-
   background-image: url("../images/image4.jpg");
   background-size:cover;
   background-repeat: no-repeat;
+}
+.but{
+  text-align: justify;
 }
