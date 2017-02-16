@@ -21,7 +21,7 @@
       </div>
   </nav>
 
-  <div class="row">
+  <div id="panel2" class="row">
     <div class="me col-md-6">
       <a href="https://www.instagram.com/na.n.oboy/" target="_blank"><img src="images/ig.png" alt="My Profile">
       </a>
@@ -37,7 +37,7 @@
 
   </div>
   <div class="container-fluid me">
-    <div class="jumbotron satic we ">
+    <div id="panel1" class="jumbotron satic we ">
       <h1>Hello there!</h1>
       <p>
         <h2>My name is Al Aganya.I would like to be a pro programmer one day.
@@ -53,6 +53,15 @@
   <div class="parallaax">
 
   </div>
+  <script src="js/jquery-3.1.1.min.js">
+  </script>
+  <script>
+    $(function() {
+
+      $("#panel2").toggle(1000).delay(1000).toggle(1000);
+
+    });
+  </script>
 </body>
 
 </html>
