@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/bio.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>MY PORTFOLIO</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="opener">
-      <h1>Al Aganya</h1>
-      <h2><em>Portfolio</em></h2>
-      <div class="parallaax">
-
+  <head>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY PORTFOLIO</title>
+  </head>
+  <body>
+    <div class="firstdisplay">
+      <!-- Overlay -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html"><i class="fa fa-home fa-5x"></i></a>    
+          <a href="bio.html"><i class="fa fa-user-circle fa-5x"></i></a>
+          <a href="projects.html"><i class="fa fa-github fa-5x"></i></a>
+        </div>
       </div>
-  </nav>
+      <!-- end of overlay -->
+      
+      <div class="container container1">
+        <img src="images/Moringa1.png" alt="AL" class="image1">
+        <div class="overlay1">
+          <div class="text1">Al AGANYA</div>
+        </div>
+      </div>
+      <div class="opener">
+        <h1>Al Aganya</h1>
+        <h2><em>Portfolio</em></h2>
+        <ul>
+          <li>
+            <span onclick="openNav()">
+              <div class="container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </span>
+          </li>
+        </ul>
 
-  <div id="panel2" class="row">
-    <div class="me col-md-6">
-      <a href="https://www.instagram.com/na.n.oboy/" target="_blank"><img src="images/ig.png" alt="My Profile">
-      </a>
-      <h2>Check out my Instagram profile</h2>
     </div>
-    <div class="me col-md-6">
-      <a href="https://www.facebook.com/aldhihram.omar?viewas=100000686899395&privacy_source=timeline_gear_menu" target="_blank"><img src="images/fb.png" alt="My Profile">
-      </a>
-      <h2>Check out my Facebook profile</h2>
+    <div class="seconddisplay">
+    <div class="container">
+    <div id="panel2" class="row">
+      <div class="col-md-5 col-md-offset-4">
+        <a href="https://github.com/aganyaal"><i class="fa fa-github fa-5x col-md-4"></i></a>
+        <a href="https://www.instagram.com/na.n.oboy/"><i class="fa fa-instagram fa-5x col-md-4"></i></a>
+        <a href="https://www.facebook.com/aldhihram.omar?viewas=100000686899395&privacy_source=timeline_gear_menu"><i class="fa fa-facebook fa-5x col-md-4"></i></a>
+      </div>
     </div>
-  </div>
-  <div class="parallaax">
-
-  </div>
-  <div class="container-fluid me">
-    <div id="panel1" class="jumbotron satic we ">
-      <h1>Hello there!</h1>
-      <p>
+    <div class="container-fluid me">
+      <div id="panel1" class="jumbotron jumbotron1">
+        <h1>Hello there!</h1>
+        <p>
         <h2>My name is Al Aganya.I would like to be a pro programmer one day.
-<br>That's why I am at Moringa School, getting a headstart.
-<br>If you would like to know more about me or view my projects so far,
-<br>feel free to do so by clicking the buttons down here.
-<br>You can also see my social profile by asking the links up there politely.
-<br>I hope you'll like it.</h2></p>
-      <p><a class="btn btn-primary btn-lg" href="bio.html" role="button">Learn more about Al</a></p>
-      <p><a class="btn btn-primary btn-lg" href="projects.html" role="button">Learn more about my projects</a></p>
+          <br>That's why I am at Moringa School, getting a headstart.
+          <br>If you would like to know more about me or view my projects so far,
+          <br>feel free to do so by clicking the buttons down here.
+          <br>You can also see my social profile by asking the links up there politely.
+          <br>I hope you'll like it.
+        </h2>
+        </p>
+      </div>
     </div>
-  </div>
-  <div class="parallaax">
-
-  </div>
-  <script src="js/jquery-3.1.1.min.js">
-  </script>
-  <script>
-    $(function() {
-
-      $("#panel2").toggle(1000).delay(1000).toggle(1000);
-
-    });
-  </script>
-</body>
-
+  </body>
 </html>
