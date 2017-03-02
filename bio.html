@@ -1,80 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/bio.css">
-  <link rel="stylesheet" href="css/bios.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Al's Bio</title>
-</head>
-
-<body>
-
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="opener">
-      <p class="navbar-right container-fluid"><a class="btn btn-primary btn-lg" href="projects.html" role="button">Projects</a></p>
-      <p class="navbar-left container-fluid"><a class="btn btn-primary btn-lg" href="index.html" role="button">Home</a></p>
-      <h1>The Bio of Al Aganya</h1>
-      <h2><em>by Al Aganya</em></h2>
-
+  <head>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bio.css">
+    <link rel="stylesheet" href="css/bioss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bios.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Al's Bio</title>
+  </head>
+  <body class="bioimage">
+    <!-- Overlay -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="intro.html"><i class="fa fa-home fa-5x"></i></a>    
+        <a href="projects.html"><i class="fa fa-github fa-5x"></i></a>
+      </div>
     </div>
-    <div class="parallax">
-
-    </div>
-  </nav>
-  </div>
-  <div class="BODY">
-    <div class="container">
-      <div class="row" class="p">
-
-        <div class="paragraph1">
-          <div class="col-md-4">
-            <p>
-              <h3 class="h">About me</h3>There's not much to know about me since I've only been alive for a short while.
-              <br>Nevertheless, I think the little there is is quite interesting.
-              <br>I was born Seventeen years ago right here in the capital, Nairobi.
-              <br>Needless to say it was a joyous occasion for my parents, I'm the first of two.
-              <br>I started education at Le pic primary school and was there until Class 5.
-              <br>I then moved to Kenvic school where I completed primary school education.
-              <br>Afterwards, I joined Starehe Boys' Centre and School for my four years of high school.
-              <br> I am currently at Moringa school studying programming.</p>
+    <!-- end of overlay -->
+    <div class="initialitems">
+      <div class="container">
+        <div id="panel2" class="row">
+          <div class="col-md-5 col-md-offset-4">
+            <a href="https://github.com/aganyaal"><i class="fa fa-github fa-5x col-md-4"></i></a>
+            <a href="https://www.instagram.com/na.n.oboy/"><i class="fa fa-instagram fa-5x col-md-4"></i></a>
+            <a href="https://www.facebook.com/aldhihram.omar?viewas=100000686899395&privacy_source=timeline_gear_menu"><i class="fa fa-facebook fa-5x col-md-4"></i></a>
           </div>
         </div>
-        <div class="paragraph2">
-          <div class="col-md-4">
-            <p>
-              <h3 class="h">Reasons for choosing programming</h3>I started programming because I wanted to develop hands-on skills
-              <br>relevant to the current tech migration of Kenya and the world in general.
-              <br>I've also been passionate about everything computer-oriented since I knew what the word meant.
-              <br>For this reason I decided that programming would best suit my pursuit for more and more knowledge on computers.</p>
-
+        <div class="row">
+          <div class="col-md-4 col-md-offset-5">
+            <span onclick="openNav()">
+              <div class="container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </span>
           </div>
         </div>
-        <div class="paragraph3">
-          <div class="col-md-4">
-            <p>
-              <h3 class="h">Interests</h3>I take interest in lots of things but I don't think I am particularly good at one specific activity or thing.
-              <br>First of all music makes a big part of my day.I start and end a day with music.
-              <br>My hobbies include:
-              <ul>
-                <li>Swimming.</li>
-                <li>Cooking.</li>
-                <li><em>Eating.</em></li>
-                <li>Staying happy.</li>
-              </ul>
+        <div class="row">
+          <div class="col-md-2 ">
+            <a href="index.html"><i class="fa fa-refresh fa-3x"></i></a>
+          </div>
+          <div class="col-md-8"></div>
+          <div class="col-md-2">
+            <a href="index.html"><i class="fa fa-refresh fa-3x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top bar ends here -->
+    <div class="row">
+      <div class="col-md-6 container1">
+        <a href="#">
+        <img src="images/education.png"
+          alt="Education"
+          width="500" height="500" class="image3" border="0" />
+        </a>
+        <div class="overlay">
+          <div class="text">
+            <div class="container3">
+              <h2>Education</h2>
+              <p>I started my education at Lepic Primary School up until first grade
+                <br>Afterwards I transfered to Kenvic Primary School since we moved to Ngong in '05.
+                <br>After finishing my primary school education at Kenvic, I graduated to high school
+                <br>and joined Starehe Boys' Centre and School for my four years of high school.
+                <br>I am currently at Moringa School learning how to code.<i class="em em-grinning"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 container1">
+        <a href="#">
+        <img src="images/family.jpg"
+          alt="Family"
+          width="500" height="500" class="image2" border="0" />
+        </a>
+        <div class="overlay">
+          <div class="text">
+            <div class="container3">
+              <h2>Family</h2>
+              <p>I was born on November 17 1999 in the city of Nairobi
+                <br>I have two sisters, one older and the other younger,
+                <br>Thats about as interesting as my family gets.<i class="em em-grinning"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-md-offset-3 container1">
+      <a href="#">
+      <img src="images/hobbies1.png"
+        alt="Hobbies"
+        width="500" height="500" class="image1" border="0" />
+      </a>
+      <div class="overlay">
+        <div class="text">
+          <div class="container3">
+            <h2>Hobbies</h2>
+            <p>I have quite a few hobbies<i class="em em-laughing"></i>.They are:
+              <br>Playing football
+              <br>Watching football
+              <br>Cooking occasionally
+              <br>Exploring new places
+              <br>Socialising
+              <br>Building new things
             </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="parallax">
-
-  </div>
-</body>
-
+  </body>
 </html>

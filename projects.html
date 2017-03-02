@@ -1,79 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>PROJECTS</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="opener">
-      <h1>Al Aganya</h1>
-      <h2><em>My Projects</em></h2>
-      <p class="navbar-right container-fluid"><a class="btn btn-primary btn-lg" href="index.html" role="button">Home</a></p>
-      <p class="navbar-left container-fluid"><a class="btn btn-primary btn-lg" href="bio.html" role="button">Bio</a></p>
-  </nav>
-  <div class="BODY">
-    <div class="container">
-      <div class="row" class="p">
-
-        <div class="paragraph1">
-          <div class="col-md-6">
-            <h3>Favourite-Things</h3>
-            <p>This was one of my first projects
-              <br>Basically I was just trying to get a hold of html language at the time.
-              <br>It doesn't have much except my favourite things but it might have a few errors</p>
-            <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/Favourite-Things" role="button" target="_blank">See it here</a></p>
+  <head>
+    <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/project.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROJECTS</title>
+  </head>
+  <body>
+    <!-- Overlay -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="intro.html"><i class="fa fa-home fa-5x"></i></a>    
+        <a href="bio.html"><i class="fa fa-user-circle fa-5x"></i></a>
+      </div>
+    </div>
+    <!-- end of overlay -->
+    <div class="initialitems">
+      <div class="container">
+        <div id="panel2" class="row">
+          <div class="col-md-5 col-md-offset-4">
+            <a href="https://github.com/aganyaal"><i class="fa fa-github fa-5x col-md-4"></i></a>
+            <a href="https://www.instagram.com/na.n.oboy/"><i class="fa fa-instagram fa-5x col-md-4"></i></a>
+            <a href="https://www.facebook.com/aldhihram.omar?viewas=100000686899395&privacy_source=timeline_gear_menu"><i class="fa fa-facebook fa-5x col-md-4"></i></a>
           </div>
         </div>
-        <div class="paragraph2">
-          <div class="col-md-6">
-            <h3>Animals</h3>
-            <p>This is by far my best project I'd say.I actually made a site with pictures and columns.
-              <br>It was done in collaboration with my pair partner, Jaden Lesuk.
-              <br>It's a website for an animal shelter putting animals up for adoption.
-              <br>Even so, it was not a perfect site as it had typos and other issues.Nevertheless it's my best one so far.</p>
-            <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/Animals" role="button" target="_blank">See it here</a></p>
-            <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/Animals" role="button" target="_blank"> It's site</a></p>
+        <div class="row">
+          <div class="col-md-3 col-md-offset-6">
+            <span onclick="openNav()">
+              <div class="container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 ">
+            <a href="index.html"><i class="fa fa-refresh fa-3x"></i></a>
+          </div>
+          <div class="col-md-8"></div>
+          <div class="col-md-2">
+            <a href="index.html"><i class="fa fa-refresh fa-3x"></i></a>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="BODY">
-    <div class="container">
-      <div class="row" class="p">
-        <div class="paragraph2">
-          <div class="col-md-6">
-            <h3>Band</h3>
-            <p>My first project with Jaden Lesuk.We finished it quite quickly even though it was not perfect
-              <br>Still, it was quite good considering the level of knowledge we had at the time.
-              <br>It is a site for a band on tour showing a bio and tour dates.</p>
-            <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/Band" role="button" target="_blank">See it here</a></p>
+    <!-- top bar ends here -->
+    <div class="BODY">
+      <div class="container">
+        <div class="row jumbotron jumbotron1" class="p">
+          <div class="paragraph1">
+            <div class="col-md-6">
+              <h3>Favourite-Things</h3>
+              <p>This was one of my first projects
+                <br>Basically I was just trying to get a hold of html language at the time.
+                <br>It doesn't have much except my favourite things but it might have a few errors
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/Favourite-Things" role="button" target="_blank">See it here</a></p>
+            </div>
           </div>
-        </div>
-        <div class="paragraph3">
-          <div class="col-md-6">
-            <h3>My-First-Webpage</h3>
-            <p>
-              This was my first project.
-              <br>There really isn't much to be said about it except I tried......
-            </p>
-            <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/my-first-webpage" role="button" target="_blank">See it here</a></p>
-
+          <div class="paragraph2">
+            <div class="col-md-6">
+              <h3>Animals</h3>
+              <p>This is my first good project I'd say.I actually made a site with pictures and columns.
+                <br>It was done in collaboration with my pair partner, Jaden Lesuk.
+                <br>It's a website for an animal shelter putting animals up for adoption.
+                <br>Even so, it was not a perfect site as it had typos and other issues.Nevertheless it's pretty good.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/Animals" role="button" target="_blank">See it here</a></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-
-</body>
-
+    <div class="BODY">
+      <div class="container">
+        <div class="row jumbotron jumbotron2" class="p">
+          <div class="paragraph2">
+            <div class="col-md-6">
+              <h3>Band</h3>
+              <p>My first project with Jaden Lesuk.We finished it quite quickly even though it was not perfect
+                <br>Still, it was quite good considering the level of knowledge we had at the time.
+                <br>It is a site for a band on tour showing a bio and tour dates.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/Band" role="button" target="_blank">See it here</a></p>
+            </div>
+          </div>
+          <div class="paragraph3">
+            <div class="col-md-6">
+              <h3>My-First-Webpage</h3>
+              <p>
+                This was my first project.
+                <br>There really isn't much to be said about it except I tried......
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://github.com/aganyaal/my-first-webpage" role="button" target="_blank">See it here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="BODY">
+      <div class="container">
+        <div class="row jumbotron jumbotron3" class="p">
+          <div class="paragraph1">
+            <div class="col-md-6">
+              <h3>To Do List</h3>
+              <p>This is a website that allows a user to
+                <br>input tasks that they would like to perfom in a certain period.
+                <br>Once the tasks are finished, they can cross them off the list.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/TO-DO-LIST/" role="button" target="_blank">See it here</a></p>
+            </div>
+          </div>
+          <div class="paragraph2">
+            <div class="col-md-6">
+              <h3>Address Book</h3>
+              <p>This is a site that allows a user to save contacts' details for later use and whatnot.
+                <br>It is a very simple thing actually but might prove useful,sometime.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/address/" role="button" target="_blank"> See it here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="BODY">
+      <div class="container">
+        <div class="row jumbotron jumbotron4" class="p">
+          <div class="paragraph1">
+            <div class="col-md-6">
+              <h3>Ping Pong</h3>
+              <p>This is a very interesting website actually.To try
+                <br>and explain its capabilities would be an insult per se.
+                <br>If interested just click the button below.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/ping-pong-ip/" role="button" target="_blank">See it here</a></p>
+            </div>
+          </div>
+          <div class="paragraph2">
+            <div class="col-md-6">
+              <h3>Roman Numbers Converter</h3>
+              <p>This is a site that converts arabic numbers to Roman numbers.
+                <br>It comes in handy when nobody thought of teaching you how to convert them.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/roman" role="button" target="_blank">See it here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="BODY">
+      <div class="container">
+        <div class="row jumbotron jumbotron5" class="p">
+          <div class="paragraph1">
+            <div class="col-md-6">
+              <h3>Trivia</h3>
+              <p>This is a side project I did with my friend Kenneth.
+                <br>It is basically a decision based game where you choices
+                <br>dictate whether you live, win or die!.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://curtello.github.io/trivia" target="_blank">See it here</a></p>
+            </div>
+          </div>
+          <div class="paragraph2">
+            <div class="col-md-6">
+              <h3>Anita's Kitchen</h3>
+              <p>This is an online menu website designed for one <em>Anita</em>.
+                <br>It displays food offered, reviews among other things.
+              </p>
+              <p><a class="btn btn-primary btn-lg" href="https://aganyaal.github.io/projoct/" role="button" target="_blank"> See it here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
-l>
